@@ -1,3 +1,5 @@
 window.alert("Still, Hello Worlds!");
 
-document.write("Doc, Hello Worlds");
+var A ="Var, Hello Worlds";
+
+document.write(A);
