@@ -6,9 +6,27 @@
 
 <body>
     <script src="JS/main.js"></script>
+        <h1>Challenge 2</h1>
+        <p>simply button click</p>
+        <button onclick="document.getElementById('demo').innerHTML=Date()">Get Yer Date and time here!</button>"
+        <p id='demo'></p>
 
+        <p>trying an alternate way, putting code in external JS</p>
+        <button onclick="displayDate()">Date and Time here!</button>"
+        <p id="timeTest"></p>
 
+        <p>Dbl click test</p>
+        <p id="double" ondblclick="dblClick()">Double click this sentence</p>
 
+        <p>On change</p>
+        <p>Select a bakery item from list</p>
+        <select id="pastries" name="pastry" onchange="myPastry()">
+            <option value="lemontart">Lemon Tart</option>
+            <option value="ApplePastries">Apple Pastry</option>
+            <option value="e&#769Claires">e&#769Claires</option>
+        </select>
+        
+        <p id="pastry"></p>
 
 
 </body>

@@ -45,5 +45,19 @@ document.write(Son);
 //assignment 12 Expressions
 document.write(2+8); //shows 10
 
+//challenge 2
+//oncluck button
+function displayDate (){
+    document.getElementById("timeTest").innerHTML=Date()
+}
 
+//dbl click test
+function dblClick(){
+    document.getElementById("double").innerHTML = "I was double-clicked!";
+}
 
+//onchange test
+function myPastry() {
+    var x = document.getElementById("pastries").value;
+    document.getElementById("pastry").innerHTML = "You selected: " + x;
+  }
