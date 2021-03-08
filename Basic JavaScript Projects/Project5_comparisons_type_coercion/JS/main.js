@@ -67,6 +67,10 @@ document.write(7>8 && 4>9);
 document.write(3<4||2<5);
 
 //assignment 34
+function not_Function(){
+    document.getElementById("Not").innerHTML = !(6>23);
+}
 
-
-//assignment 35
+function not_Function2(){
+    document.getElementById("Not2").innerHTML = !(44>2);
+}
