@@ -32,11 +32,41 @@ document.write("67"+ 8); //should tack 8 on to string 67 to = 678
 console.log(65>85); //displays false in console
 
 //assignment 31
+//dbl equal check for equality
+document.write(80 == 80);
+document.write(67 == 8);
 
 //assignment 32
+//triple equal check the data on the left is = to data on right, and is same type of data as on right
+A = 5;
+B = 5;
+document.write(A===B);
+//Return true as the data type and value match 
+C = 10;
+D = "9";
+document.write(C===D);
+//Return false as the data type and value are different 
+
+X = "10";
+Y = "ten";
+document.write(X===Y);
+//Return false despite the data type match but values are different
+
+E = 8;
+F = 4;
+document.write(E===F);
+//Return false despite the values type match but data is different
+
+c = "something";
+d = "something";
+document.write(c===d);
+//Return true as the data type and value match 
 
 //assignment 33
+document.write(7>8 && 4>9);
+document.write(3<4||2<5);
 
 //assignment 34
 
-//assignment 315
+
+//assignment 35
