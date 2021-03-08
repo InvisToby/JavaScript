@@ -18,3 +18,8 @@ Math Operations Practice <br>
 Writing math functions for  -, =, /, *, %, ==, -- <br>
 A math.random function to get a pop window to pop up with random number <br>
 also math.round to round a number
+<br>
+
+Dictionaries and KVP <br>
+wrote a 'character' a dictionary with a function that outputs a key-value pair into an HTML element <br>
+Wrote a delete statement that removes the key before its value is displayed <br>
