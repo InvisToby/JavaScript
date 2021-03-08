@@ -15,3 +15,9 @@ function not_a_Number(){
 document.write(4E310); //  displays “Infinity”
 document.write(-1E310);// display “-Infinity”
 
+//assignment 28
+//
+document.write(67>3); //true becase 67 is bigger then 3
+document.write(86<4); // false because 4 is not bigger then 86
+
+//assignment 29
