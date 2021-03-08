@@ -20,4 +20,23 @@ document.write(-1E310);// display “-Infinity”
 document.write(67>3); //true becase 67 is bigger then 3
 document.write(86<4); // false because 4 is not bigger then 86
 
-//assignment 29
+//assignment 29 
+//console.log() method
+console.log(5+87); //can be used to display data in the console within the browser F12 > console to see answer 
+
+//assignment 30
+//Type Coercion
+document.write("67"+ 8); //should tack 8 on to string 67 to = 678
+
+//Challenge 7
+console.log(65>85); //displays false in console
+
+//assignment 31
+
+//assignment 32
+
+//assignment 33
+
+//assignment 34
+
+//assignment 315
