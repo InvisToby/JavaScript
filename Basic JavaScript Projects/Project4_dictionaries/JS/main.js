@@ -7,7 +7,7 @@ function original_Character() {
         Pronouns: "He They Toby",
         Height: "6ft",
         Eye_Colour: "Light Blue",
-        Quote:"Please take care of yourselves,
+        Quote:"Please take care of yourselves"
     };
     document.getElementById("Characters").innerHTML = Original.Quote;
 }
