@@ -5,11 +5,13 @@ document.write(typeof 7 ); //output = number
 
 //challenge 6
 function not_a_Number(){
-    document.getElementById("testNaN").innerHTML = 0/0;
-    document.getElementById("testNaNString").innerHTML =isNaN("several tests");
-    document.getElementById("testNaNNo").innerHTML =isNaN('542');
+    document.getElementById("testNaN").innerHTML = 0/0; //browser wil display NaN as 0/0 is not a number.
+    document.getElementById("testNaNString").innerHTML =isNaN("several tests"); //Using isNaN() function browser wil display “true” as "several tests is not a number".
+    document.getElementById("testNaNNo").innerHTML =isNaN('542'); //Using isNaN() function browser wil display  “false” as "542 is a number".
 }
 
 //assignment 27
-document.write(4E310);
-document.write(-1E310);
+// “Infinity” “-Infinity”
+document.write(4E310); //  displays “Infinity”
+document.write(-1E310);// display “-Infinity”
+
