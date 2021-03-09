@@ -28,3 +28,10 @@ Type Of Operator <br>
 Using document.write() method and type of operator to display the data type of a variable <br>
 An expression combining a string and a number <br>
 code using the following operators: ==, ===, >, <, &&, ||, !  and display in the browser <br>
+
+9/3/21
+Includes:
+a ternary operation using input from the browser, 
+a constructor function that uses the “new” and “this” keywords
+a function to display the results of the constructor function within an HTML element
+a nested function
