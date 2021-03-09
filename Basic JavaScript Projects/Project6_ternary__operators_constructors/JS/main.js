@@ -1,9 +1,9 @@
 //assignment 35
-//Ternary Operators
+//Ternary Operators to assign a value to a variable based on a condition. 
 function  Ride_Function() {
     var Height, Can_ride;
-    Height = document.getElementById("Height").value;
-    Can_ride = (Height<52)?"you are too short":"You are tall enough";
+    Height = document.getElementById("Height").value;//gets input from html page id "height" value
+    Can_ride = (Height<52)?"you are too short":"You are tall enough"; //  if left is smaller then 52 =you are too short, 52 = you are tall enough
     document.getElementById("Ride").innerHTML= Can_ride + " to ride.";
 }      
 
@@ -19,13 +19,13 @@ function Vote_Function() {
 //assignment 36
 //Keywords and Contructors
 
-function Vehicle(Make, Model, Year, Color) {
-    this.Vehicle_Make=Make;
+function Vehicle(Make, Model, Year, Color) { //is the object constructor.
+    this.Vehicle_Make=Make; //“this” keyword indicates the object that is the owner of the code
     this.Vehicle_Model=Model;
     this.Vehicle_Year=Year;
     this.Vehicle_Color=Color;
 }
-var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");
+var Jack = new Vehicle("Dodge", "Viper", 2020, "Red"); // “new” keyword, used to create new objects.
 var Emily = new Vehicle("Jeep", "Hawk", 2019, "White and Black");
 var Erik = new Vehicle("Ford", "Pinto", 1972, "Mustard");
 function myFunction() {
@@ -40,7 +40,17 @@ function character(first, race, age, eye) {
     this.age = age;
     this.eyeColor = eye;
   }
-  var abstract = new character("Cipher", "Alien", 122, "blue");
+  var abstract = new character("Cipher", "Alien", 122, "blue"); //abstrack is a reserved Keyword, so this comes up with 'undefined'
   function myCharacter() {
   document.getElementById("error").innerHTML = "The New character is " + abstract.first + "."; 
+  }
+
+  function count_Function(){
+    document.getElementById("Nested_Function").innerHTML = Count(); 
+    function Count() { //Function Count
+        var Strating_point = 9 //create starting point
+        function Plus_one() {Strating_point += 1;} //Function to add 1
+        Plus_one(); // Call Plus_one()
+        return Strating_point; //stops the execution of a function and returns the value from that function.
+    }
   }
