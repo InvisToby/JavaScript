@@ -23,3 +23,8 @@ also math.round to round a number
 Dictionaries and KVP <br>
 wrote a 'character' a dictionary with a function that outputs a key-value pair into an HTML element <br>
 Wrote a delete statement that removes the key before its value is displayed <br>
+
+Type Of Operator <br>
+Using document.write() method and type of operator to display the data type of a variable <br>
+An expression combining a string and a number <br>
+code using the following operators: ==, ===, >, <, &&, ||, !  and display in the browser <br>
