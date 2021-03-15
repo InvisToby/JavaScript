@@ -24,12 +24,12 @@ function slice_Method() {
 //toUpperCase() method.
 function upper_Case() {
     var text = document.getElementById("toSlice").innerHTML;
-    document.getElementById("toSlice").innerHTML = text.toUpperCase();
+    document.getElementById("toSlice").innerHTML = text.toUpperCase(); //converts the string found in to slice "Everywhere one looked, stars twinkled and flickered back" to upper case
   }
 //search() method.
 function search_Method(){
     var str = "The 'moon' shone bright to the east.";
-    var pos = str.search("moon");
+    var pos = str.search("moon"); //returns the the position of the first occurrence of a specified text eg moon
     document.getElementById("find").innerHTML = pos;
 }
 
@@ -50,6 +50,16 @@ function precision_Method(){
 
 //challenge 11
 //toFixed() method.
+function fixed_Method() {
+    var num = 668.5218;
+    var n = num.toFixed(2); //rounding the number to keep only two decimals:
+    document.getElementById("fix").innerHTML = n;
+  }
 
 //valueOf() method.
-
+//return the primitive value of the string object
+function myValue_Method() {
+    var str = "Ahoy hoy";
+    var res = str.valueOf();
+    document.getElementById("value").innerHTML = res;
+  }
