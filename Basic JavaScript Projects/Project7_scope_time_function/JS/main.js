@@ -38,9 +38,43 @@ function get_Date(){
 }
 
 
-function Get_UnBirthday(){
-    if (new Date().getDate() <12)
-    if (new Date().getMonth()< 10) {
-        document.getElementById("UnBirthday").innerHTML="Happy UnBirthday to you";
+function Get_Time(){
+    if (new Date().getTime() != 3) { //if time not = to this then 
+        document.getElementById("Time").innerHTML="Not Yet, Sorry."; //write this
     }
+}
+
+function Age_Function() {
+    Age = document.getElementById("Age").value;
+    if (Age >= 18 ) { //if 'age' = or greater then 18 
+        Vote = "Youre are old enough to vote, congrats"; // if equal or greater then write this
+    } else {
+        Vote = "Not old enough to vote yet."; //if not equal or less then 18 write this instead
+    }
+    document.getElementById("HORU").innerHTML = Vote;
+}
+
+function Get_Birthday() {
+    BDay = document.getElementById("BDay").value;
+    if (new Date().getDate() == BDay) { // checks if today is = to day input, can't get it to work with day and month
+        congrats = "Happy Birthday";
+    } else {
+        congrats = "Happy UnBirthday";
+    }
+    document.getElementById("Birthday").innerHTML = congrats;
+}
+
+function Time_Function(){
+    var Time = new Date().getHours();
+    var Reply;
+    if  (Time < 12 > 0) { //if the time is less the 12 but greater then 0
+        Reply = "Good Morning!"; //write this
+    }
+    else if (Time > 12 < 18){ //but if it is more the 12 but less the 18 (6 o'clock)
+        Reply = "Good Afternoon!"; //write this
+    }
+    else {
+        Reply = "Good Evening!"; //and if its none of the above
+    }
+    document.getElementById("Time_of_day").innerHTML= Reply;
 }
