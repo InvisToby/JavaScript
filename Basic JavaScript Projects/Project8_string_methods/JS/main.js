@@ -12,3 +12,9 @@ function concat_Sentence() {
 
 //Assignment 45
 //slice() method 
+
+function slice_Method() {
+    var Sentence = "The night sky appeared as it was meant to. Everywhere one looked, stars twinkled and flickered back, illuminating the hill better than any flashlight could ever hope to."; 
+    var Section = Sentence.slice(43, 101);
+    document.getElementById("toSlice").innerHTML = Section;
+}
