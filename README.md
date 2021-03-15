@@ -35,3 +35,8 @@ a ternary operation using input from the browser,
 a constructor function that uses the “new” and “this” keywords
 a function to display the results of the constructor function within an HTML element
 a nested function
+
+15/3
+local variable and a global variable <br>
+if statement <br>
+Time_function()
