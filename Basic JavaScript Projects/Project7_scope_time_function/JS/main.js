@@ -37,13 +37,14 @@ function get_Date(){
     }
 }
 
-
+//assignment 41
 function Get_Time(){
     if (new Date().getTime() != 3) { //if time not = to this then 
         document.getElementById("Time").innerHTML="Not Yet, Sorry."; //write this
     }
 }
 
+//Assignment 42
 function Age_Function() {
     Age = document.getElementById("Age").value;
     if (Age >= 18 ) { //if 'age' = or greater then 18 
@@ -64,6 +65,7 @@ function Get_Birthday() {
     document.getElementById("Birthday").innerHTML = congrats;
 }
 
+//Assignment 43
 function Time_Function(){
     var Time = new Date().getHours();
     var Reply;
