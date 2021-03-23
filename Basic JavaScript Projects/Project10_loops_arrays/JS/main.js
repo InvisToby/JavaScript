@@ -22,12 +22,23 @@ function find_length(){
 //assignment 51
 //for Loop
 
-    var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
-    var Content = "";
-    var Y;
-    function For_Loop(){
-        for (Y = 0; Y < Instruments.length; Y++) {
-        Content += Instruments[Y] + "<br>";    
-        }
-        document.getElementById("List_of_Instruments").innerHTML = Content;
+var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
+var Content = "";
+var Y;
+function For_Loop(){
+    for (Y = 0; Y < Instruments.length; Y++) {
+    Content += Instruments[Y] + "<br>";    
+    }
+    document.getElementById("List_of_Instruments").innerHTML = Content;
+}
+
+//assignment 52
+//Array
+function array_Function(){
+    var Oc_Profile = [];
+    Oc_Profile[0] = "red haired";
+    Oc_Profile[1] = "blue eyes";
+    Oc_Profile[2] = "an artist";
+    Oc_Profile[3] = "hard working";
+    document.getElementById("Array").innerHTML = "They are " + Oc_Profile[3] + ".";
 }
