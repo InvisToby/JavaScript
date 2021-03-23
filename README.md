@@ -44,7 +44,8 @@ Time_function()
 <br>
 
 15/3
-string methods
-
+string methods <br>
+concat(), slice(), toString(), toPrecision()
+>br>
 23/3 <br>
 created a countdown function and Slideshow
