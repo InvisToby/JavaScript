@@ -30,13 +30,22 @@ An expression combining a string and a number <br>
 code using the following operators: ==, ===, >, <, &&, ||, !  and display in the browser <br>
 
 9/3/21
-Includes:
-a ternary operation using input from the browser, 
-a constructor function that uses the “new” and “this” keywords
-a function to display the results of the constructor function within an HTML element
-a nested function
+Includes:<br>
+a ternary operation using input from the browser, <br>
+a constructor function that uses the “new” and “this” keywords <br>
+a function to display the results of the constructor function within an HTML element <br>
+a nested function 
+<br>
 
-15/3
+15/3 <br>
 local variable and a global variable <br>
 if statement <br>
 Time_function()
+<br>
+
+15/3
+string methods <br>
+concat(), slice(), toString(), toPrecision()
+<br>
+23/3 <br>
+created a countdown function and Slideshow
