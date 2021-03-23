@@ -11,3 +11,6 @@ function count_To_Ten() {
 }
 
 //challenge 13
+//The length property returns the length of a string (number of characters).
+
+//assignment 51
