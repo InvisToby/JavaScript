@@ -43,5 +43,8 @@ if statement <br>
 Time_function()
 <br>
 
+15/3
+string methods
+
 23/3 <br>
 created a countdown function and Slideshow
