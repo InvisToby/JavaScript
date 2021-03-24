@@ -15,7 +15,7 @@ function Call_Loop() {
 
 function find_length(){
     var str = "find";
-    var n = str.length;
+    var n = str.length; //gets length of string 'find'
     document.getElementById("found").innerHTML = n;
 }
 
@@ -34,6 +34,7 @@ function For_Loop(){
 
 //assignment 52
 //Array
+
 function array_Function(){
     var Oc_Profile = [];
     Oc_Profile[0] = "red haired";
@@ -42,3 +43,27 @@ function array_Function(){
     Oc_Profile[3] = "hard working";
     document.getElementById("Array").innerHTML = "They are " + Oc_Profile[3] + ".";
 }
+
+//assignment 53
+//const
+
+function constant_function(){
+    const Profile = {name:"Cipher", race:"Alien", hair:"Red Hair", strength:"Super resistant to practically everything"};
+    Profile.hair = "red haired";
+    Profile.eyes = "Blue eyes";
+    document.getElementById("Constant").innerHTML = "" + Profile.name + " has " + Profile.eyes + ". and is " + Profile.strength;
+}
+
+//assignment 54
+//let
+var L = 22;
+document.write(L);
+{
+    let m = 87;
+    document.write ("<br>" + m)
+}
+document.write ("<br>" + L)
+document.write ("<br>" + m)
+
+//challenge 14
+//return statement.
