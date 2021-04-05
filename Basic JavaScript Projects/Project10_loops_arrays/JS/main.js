@@ -76,13 +76,14 @@ let car = {
 };
 document.getElementById("car_object").innerHTML = car.description();
 
-let car = {
-    make: "Dodge ",
-    model: "Viper ",
-    year: "2021 ",
-    color: "red ",
+//assignment 55a
+let ocProfile = {
+    name: "Cipher ",
+    race: "Alien ",
+    hair: "Blue ",
+    eye_color: "Blue ",
     description : function() {
-        return "this car is a " + this.year + this.color + this.make + this.model;
+        return "An Old Oc is " + this.name + this.race + this.hair + this.eye_color;
     }
 };
-document.getElementById("car_object").innerHTML = car.description();
+document.getElementById("oc_profile").innerHTML = ocProfile.description();
