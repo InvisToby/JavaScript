@@ -59,11 +59,30 @@ function constant_function(){
 var L = 22;
 document.write(L);
 {
-    let m = 87;
-    document.write ("<br>" + m)
+    let L = 87;
+    document.write ("<br>" + L)
 }
 document.write ("<br>" + L)
-document.write ("<br>" + m)
 
-//challenge 14
-//return statement.
+//assignment 55
+let car = {
+    make: "Dodge ",
+    model: "Viper ",
+    year: "2021 ",
+    color: "red ",
+    description : function() {
+        return "this car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("car_object").innerHTML = car.description();
+
+let car = {
+    make: "Dodge ",
+    model: "Viper ",
+    year: "2021 ",
+    color: "red ",
+    description : function() {
+        return "this car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("car_object").innerHTML = car.description();
