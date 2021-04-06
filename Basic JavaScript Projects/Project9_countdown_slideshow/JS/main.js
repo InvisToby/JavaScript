@@ -1,15 +1,16 @@
+//Assignment 48 
 function countdown(){
     var seconds = document.getElementById("seconds").value; //get value from input "seconds"
 
     function tick(){
-        seconds = seconds - 1; //take 1 off the value of 'second' (what ever the use input was)
-        timer.innerHTML = seconds; //
+        seconds = seconds - 1; //has it so seconds takes 1 off the value of 'second' (what ever the use input was)
+        timer.innerHTML = seconds; //gets, sets or returns the time, countdown number from seconds?
         setTimeout (tick, 1000); //pausing for 1,000 milliseconds (i.e., 1 second).
     if(seconds == -1){ //if seconds = -1 time is up if not will do loop again taking off a second
         alert("Time's up");
     }
         }
-    tick(); //calls subprogram/function tick which takes 1 of each second
+    tick(); //calls subprogram/function 'tick' which takes 1 of each second
 }
 
 //manual
